@@ -4,7 +4,7 @@ const client = new Discord.client();
 
 const config = {
   prefix: "!",
-  token: "ODIyODkzNzcxNjIzNjI4ODIw.YFY5iw.vapEmvjh-0-rSZ28hLG7hfw20Hs"
+  token: "HIDDEN"
 }
 
 client.on("ready", () => {
