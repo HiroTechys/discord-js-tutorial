@@ -19,13 +19,13 @@ client.on("message", (message) => {
   const command = args.shift();
 
   switch(command){
-    case "ping",
-    message.channel.send(`My ping is: ${client.ws.ping}`)
+    case "ping":
+    message.channel.send(`My ping is: ${client.ws.ping}`);
     break;
-    case "say",
+    case "say":
     message.channel.send(args.join(" "));
     break;
-    default;
+    default:
     message.channel.send("UNKNOWN COMMAND");
     break;
   }
