@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 
-const client = new Discord.client();
+const client = new Discord.Client();
 
 const config = {
   prefix: "!",
